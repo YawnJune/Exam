@@ -26,7 +26,7 @@ int main()
             cout << "Ce verbe est au 2eme groupe." << endl;
     }
 
-    //si la terminaison est autre que ça
+    //si la terminaison est autre que Ã§a
     else if (verbe[verbe.length() - 2] == 'r' && verbe[verbe.length() - 1] == 'e'){
         cout << "Ce verbe est au 3eme groupe." << endl;
     }
@@ -36,3 +36,4 @@ int main()
 
     return 0;
 }
+
